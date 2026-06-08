@@ -1,0 +1,64 @@
+{
+  "cenarios": [
+    {
+      "nome": "nominal",
+      "descricao": "Operação completamente normal — todos os parâmetros dentro dos limites",
+      "dados": {
+        "sensor_termico_celsius": 31.2,
+        "ndvi": 0.74,
+        "buffer_imagens_pct": 42.0,
+        "precisao_geo_metros": 14.5,
+        "energia_pct": 81.0
+      },
+      "nivel_esperado": "NOMINAL"
+    },
+    {
+      "nome": "incendio_critico",
+      "descricao": "Foco de calor ativo detectado — temperatura e NDVI críticos simultaneamente",
+      "dados": {
+        "sensor_termico_celsius": 68.4,
+        "ndvi": 0.17,
+        "buffer_imagens_pct": 78.5,
+        "precisao_geo_metros": 19.0,
+        "energia_pct": 52.0
+      },
+      "nivel_esperado": "CRÍTICO"
+    },
+    {
+      "nome": "energia_baixa",
+      "descricao": "Energia crítica — modo de economia ativado automaticamente",
+      "dados": {
+        "sensor_termico_celsius": 28.5,
+        "ndvi": 0.62,
+        "buffer_imagens_pct": 33.0,
+        "precisao_geo_metros": 16.0,
+        "energia_pct": 14.0
+      },
+      "nivel_esperado": "CRÍTICO"
+    },
+    {
+      "nome": "buffer_cheio",
+      "descricao": "Buffer de imagens próximo do limite — risco de perda de dados",
+      "dados": {
+        "sensor_termico_celsius": 35.0,
+        "ndvi": 0.58,
+        "buffer_imagens_pct": 93.5,
+        "precisao_geo_metros": 22.0,
+        "energia_pct": 67.0
+      },
+      "nivel_esperado": "CRÍTICO"
+    },
+    {
+      "nome": "multipla_falha",
+      "descricao": "Múltiplas anomalias simultâneas — cenário de emergência máxima",
+      "dados": {
+        "sensor_termico_celsius": 64.1,
+        "ndvi": 0.19,
+        "buffer_imagens_pct": 91.0,
+        "precisao_geo_metros": 78.0,
+        "energia_pct": 17.0
+      },
+      "nivel_esperado": "CRÍTICO"
+    }
+  ]
+}
