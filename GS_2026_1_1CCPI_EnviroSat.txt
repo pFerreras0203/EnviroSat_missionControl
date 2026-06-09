@@ -8,5 +8,5 @@ Turma: 1CCPI
 Modalidade: Dupla
 Trilha: EnviroSat — Observação Ambiental 
 
-Link do repositório GitHub: https://github.com/SEU_USUARIO/mission-control-ai
+Link do repositório GitHub: https://github.com/pFerreras0203/EnviroSat_missionControl.git
 Link do vídeo de demonstração: https://www.youtube.com/watch?v=SEU_ID_AQUI

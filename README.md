@@ -51,11 +51,11 @@ O sistema atende **três personas** com linguagem adaptada a cada contexto:
 
 ---
 
-## ▶ Como executar
+##  Como executar
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/mission-control-ai.git
+git clone https://github.com/pFerreras0203/EnviroSat_missionControl.git
 cd mission-control-ai
 
 # 2. Crie e ative o ambiente virtual
