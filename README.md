@@ -173,5 +173,5 @@ Se o EnviroSat-1 operar com 100% de disponibilidade por 1 ano:
 
 ##  Vídeo de demonstração
 
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+🔗 [Assistir demonstração no YouTube](https://youtu.be/YBdpU4_wcYA)
 
